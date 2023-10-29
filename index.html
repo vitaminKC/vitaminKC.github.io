@@ -19,7 +19,7 @@
       }
       p {
         font-size: 1.25em;
-        padding: 10px;
+        padding: 5px;
       }
 
       img {
@@ -45,7 +45,7 @@
       }
 
       h1 {
-        padding: 10px;
+        padding: 5px;
       }
 
       .hero-image{
@@ -62,7 +62,6 @@
         max-width: 1000px;
         position: relative;
         margin: auto;
-        filter: brightness(60%);
       }
 
       .mySlides {
@@ -73,6 +72,7 @@
         width: 1000px;
         height: 400px;
         object-fit: cover;
+        filter: brightness(60%);
       }
 
       .prev, .next {
@@ -101,10 +101,20 @@
 
       .numbertext {
         color: #f2f2f2;
-        font-size: 12px;
+        font-size: 25px;
         padding: 8px 12px;
         position: absolute;
         top: 0;
+      }
+
+      .imgtext {
+        color: #f2f2f2;
+        font-size: 25px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
 
       /* Fading animation */
@@ -140,6 +150,7 @@
     <div class="img-carousel"> 
       <div class="mySlides fade">
         <div class="numbertext">1 / 5</div>
+        <div class="imgtext"><h1>Hello! My name is Casey Ye!</h1></div>
         <img src="img/header.jpg" class="c-img">
       </div>
 
