@@ -272,7 +272,14 @@
     <!--Main page nav bar-->
     <div class="nav center">
       <a href="#reviews">Reviews</a>
-      <a href="#services">Services</a>
+      <div class="dropdown">
+        <button class="dropbtn">Services</button>
+        <div class="dropdown-content">
+          <a href="#keyboard-service">Keyboards</a>
+          <a href="#computer-service">Computers</a>
+          <a href="#other-service">Other</a>
+        </div>
+      </div> 
       <a href="#contact">Contact</a>
      </div>
 
@@ -312,7 +319,7 @@
         Price of the services is negotiable but customer must be willing to pay the price of at least the materials (casing, switches, Krytox, films, etc).
       </p>
       
-      <h2>Keyboard Services</h2>
+      <h2 id="keyboard-service">Keyboard Services</h2>
       <p>
         I can help find parts, mod switches, stabilizers, and prebuilt keyboards, and making fully custom boards. I am also open to repairing and cleaning keyboards. 
       </p>
@@ -354,7 +361,7 @@
         </div>
       </div>
 
-      <h2>
+      <h2 id="computer-service">
         Computer Services
       </h2>
       <p>
@@ -371,7 +378,12 @@
             <img src="img/gpu.jpg" class="center">
           </a>
         </div>
-      
+      </div>
+
+      <h2 id="other-services">
+        
+      </h2>
+
     </div>
 
     <div id = "contact">
