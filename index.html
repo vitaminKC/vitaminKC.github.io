@@ -11,7 +11,7 @@
     <style>
       body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
-      .sidenav a {
+      .nav a {
         padding: 6px 8px 6px 35px;
         text-decoration: none;
         font-size: 25px;
@@ -42,6 +42,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+        text-align: center;
       }
 
       h1, h2 {
@@ -176,7 +177,7 @@
     </header>
 
     <!-- Navigation bar -->
-    <div class="sidenav center">
+    <div class="nav center">
      <a href="index.html">Home</a>
      <a href="aboutMe.html">About Me</a>
      <a href="keyboards.html">Keyboards</a>
@@ -187,7 +188,7 @@
     <div class="img-carousel"> 
       <div class="mySlides fade">
         <img src="img/header.jpg" class="c-img">
-        <div class="imgtext"><h2>Hello! My name is Casey Ye!</h2></div>
+        <div class="imgtext"><p>Hello! My name is Casey Ye!</p></div>
         <div class="sub-imgtext"><p>I build custom keyboards and computers!</p></div>
         <div class="numbertext">1 / 5</div>
       </div>
@@ -269,6 +270,12 @@
         <p style="font-size: 35px;">I build custom keyboards and computers!</p>
     </div> 
     -->
+    <!--Main page nav bar-->
+    <div class="nav center">
+      <a href="#reviews">Reviews</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+     </div>
 
     <!-- Page content -->
 
@@ -280,8 +287,8 @@
     </p>
 
 
-    <div class="reviews">
-      <h1 id = "reviews"> <b> Reviews </b> </h1>
+    <div id = "reviews">
+      <h1> <b> Reviews </b> </h1>
       <p>
         "Casey helped me modify a prebuilt keyboard that I had bought off of Amazon a little over a year ago. I gave them the keyboard and some new switches,
         and the final product turned out great! I continue to use it to this day. The process was great to see, as they made sure to show me updates along the way
@@ -299,62 +306,61 @@
       </p>
     </div>
 
-    <div class="contact">
-      <h1 id = "contact"> <b> Contact </b> </h1>
+    <div id="services">
+      <h1>Services</h1>
+      <p>
+        Price of the services is negotiable but customer must be willing to pay the price of at least the materials (casing, switches, Krytox, films, etc).
+      </p>
+      
+      <h2>Keyboard Services</h2>
+      <p>
+        I can help find parts, mod switches, stabilizers, and prebuilt keyboards, and making fully custom boards. I am also open to repairing and cleaning keyboards. 
+      </p>
+      <div class="flex-container">
+        <div class="gallery">
+          <div class="desc">          
+            <b>Lubing switches</b> <br>
+          </div>
+          <a target="_blank" href="img/lubing.jpg">
+            <img src="img/lubing.jpg" class="center">
+          </a>
+        </div>
+  
+        <div class="gallery">
+          <div class="desc">          
+            <b>Modding Pre-built Keyboards</b> <br>
+          </div>
+          <a target="_blank" href="img/modding.jpg">
+            <img src="img/modding.jpg" class="center">
+          </a>
+        </div>
+  
+        <div class="gallery">
+          <div class="desc">          
+            <b>Modding Stabilizers</b> <br>
+          </div>
+          <a target="_blank" href="img/stabs.jpg">
+            <img src="img/stabs.jpg" class="center">
+          </a>
+        </div>
+  
+        <div class="gallery">
+          <div class="desc">          
+            <b>Fully Custom Keyboards</b> <br>
+          </div>
+          <a target="_blank" href="img/rack.jpg">
+            <img src="img/rack.jpg" class="center">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id = "contact">
+      <h1> <b> Contact </b> </h1>
       <p>
         Email: caseyye928@gmail.com <br>
         Cell: 718-791-6052
       </p>
-    </div>
-
-
-    <h1>Services</h1>
-    <p>
-      Price of the services is negotiable but customer must be willing to pay the price of at least the materials (casing, switches, Krytox, films, etc).
-    </p>
-    
-    <h2>Keyboard Services</h2>
-    <p>
-      I can help find parts, mod switches, stabilizers, and prebuilt keyboards, and making fully custom boards. I am also open to repairing and cleaning keyboards. 
-    </p>
-    <div class="flex-container">
-      <div class="gallery">
-        <div class="desc">          
-          <b>Lubing switches</b> <br>
-        </div>
-        <a target="_blank" href="img/lubing.jpg">
-          <img src="img/lubing.jpg" class="center">
-        </a>
-      </div>
-
-      <div class="gallery">
-        <div class="desc">          
-          <b>Modding Pre-built Keyboards</b> <br>
-        </div>
-        <a target="_blank" href="img/modding.jpg">
-          <img src="img/modding.jpg" class="center">
-        </a>
-      </div>
-
-      <div class="gallery">
-        <div class="desc">          
-          <b>Modding Stabilizers</b> <br>
-        </div>
-        <a target="_blank" href="img/stabs.jpg">
-          <img src="img/stabs.jpg" class="center">
-        </a>
-      </div>
-
-      <div class="gallery">
-        <div class="desc">          
-          <b>Fully Custom Keyboards</b> <br>
-        </div>
-        <a target="_blank" href="img/rack.jpg">
-          <img src="img/rack.jpg" class="center">
-        </a>
-      </div>
-
-
     </div>
 
   </body>
