@@ -143,8 +143,27 @@
 
       .flex-container {
         display: flex;
+        flex-wrap: row wrap;
+        justify-content: center space-evenly;
       }
 
+      .gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 500px;
+      }
+
+      .gallery img {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
     </style>
   </head>
 
@@ -287,13 +306,21 @@
       </p>
     </div>
 
+
+    <h1>Services</h1>
+    <p>
+      I can help find parts, mod switches, stabilizers, and prebuilt keyboards, and making fully custom boards. I am also open to repairing and cleaning keyboards. Price of the
+      service is negotiable but customer must be willing to pay the price of at least the materials (casing, switches, Krytox, films, etc).
+    </p>
     <div class="flex-container">
-      <h1>Services</h1>
-      
-      <p>
-        I can help find parts, mod switches, stabilizers, and prebuilt keyboards, and making fully custom boards. I am also open to repairing and cleaning keyboards. Price of the
-        service is negotiable but customer must be willing to pay the price of at least the materials (casing, switches, Krytox, films, etc).
-      </p>
+      <div class="gallery">
+        <a target="_blank" href="img/lubing.jpg">
+          <img src="img/lubing.jpg">
+        </a>
+        <div class="desc">          
+          <b>February 22, 2021</b> <br>
+          </div>
+      </div>
 
 
 
