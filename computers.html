@@ -47,6 +47,25 @@
         margin-right: auto;
         width: 50%;
       }
+
+      .gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 500px;
+      }
+
+      .gallery img {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
     </style>
   </head>
 
@@ -89,36 +108,42 @@
     </p>
     <br>
 
-    <div class="w3-row-padding">
-      <div class="w3-third w3-container w3-margin-bottom">
-        <img src="img/firstPC.jpg" style="width:400px; height:300px" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>February 22, 2021</b></p>
-        </div>
-      </div>
+    <h2>Evolution of my Setup</h2>
 
-      <div class="w3-third w3-container w3-margin-bottom">
-        <img src="img/secondPC.jpg" style="width:400px; height:300px" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>June 12, 2021</b></p>
+    <div class="gallery">
+      <a target="_blank" href="img/firstPC.jpg">
+        <img src="img/firstPC.jpg">
+      </a>
+      <div class="desc">          
+        <b>February 22, 2021</b> <br>
         </div>
-      </div>
     </div>
 
-    <div class="w3-row-padding">
-      <div class="w3-third w3-container w3-margin-bottom">
-        <img src="img/thridPC.jpg" style="width:400px; height:300px;" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>September 12, 2021 </b></p>
+    <div class="gallery">
+      <a target="_blank" href="img/secondPC.jpg">
+        <img src="img/secondPC.jpg">
+      </a>
+      <div class="desc">          
+        <b>February 22, 2021</b> <br>
         </div>
-      </div>
+    </div>
 
-      <div class="w3-third w3-container">
-        <img src="img/fourthPC.jpg" style="width:400px; height:300px;" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>July 19, 2023</b></p>
+    <div class="gallery">
+      <a target="_blank" href="img/thirdPC.jpg">
+        <img src="img/thridPC.jpg">
+      </a>
+      <div class="desc">          
+        <b>September 12, 2021</b> <br>
         </div>
-      </div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img/fourthPC.jpg">
+        <img src="img/fourthPC.jpg">
+      </a>
+      <div class="desc">          
+        <b>July 19, 2023</b> <br>
+        </div>
     </div>
   </body>
 
